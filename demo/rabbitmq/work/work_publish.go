@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"SpikeSystem/demo/rabbitmq/RabbitMQ"
+	"GoLearningUtils/demo/rabbitmq/RabbitMQ"
 )
 
 func WorkPublish() {

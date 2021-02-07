@@ -1,7 +1,7 @@
 package work
 
 import (
-	"SpikeSystem/demo/rabbitmq/RabbitMQ"
+	"GoLearningUtils/demo/rabbitmq/RabbitMQ"
 )
 
 func Receive2() {
