@@ -3,7 +3,7 @@ package simple
 import (
 	"fmt"
 
-	"SpikeSystem/demo/rabbitmq/RabbitMQ"
+	"GoLearningUtils/demo/rabbitmq/RabbitMQ"
 )
 
 func Publish() {
