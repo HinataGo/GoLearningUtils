@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"time"
 
-	"SpikeSystem/demo/rabbitmq/simple"
+	"SpikeSystem/demo/rabbitmq/RabbitMQ"
 )
 
 func WorkPublish() {
-	rabbitmq := simple.NewRabbitMQSimple("" + "rookie")
+	rabbitmq := RabbitMQ.NewRabbitMQSimple("" + "rookie")
 	for i := 0; i <= 100; i++ {
 		rabbitmq.PublishSimple("Hello rookie!" + strconv.Itoa(i))
 		time.Sleep(1 * time.Second)

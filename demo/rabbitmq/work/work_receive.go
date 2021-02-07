@@ -1,8 +1,10 @@
 package work
 
-import "SpikeSystem/demo/rabbitmq/simple"
+import (
+	"SpikeSystem/demo/rabbitmq/RabbitMQ"
+)
 
 func Receive1() {
-	rabbitmq := simple.NewRabbitMQSimple("" + "rookie")
+	rabbitmq := RabbitMQ.NewRabbitMQSimple("" + "rookie")
 	rabbitmq.ConsumeSimple()
 }
