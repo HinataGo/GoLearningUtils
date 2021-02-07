@@ -6,3 +6,7 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+/modules.xml
+/SpikeSystem.iml
+/vcs.xml
+/watcherTasks.xml
