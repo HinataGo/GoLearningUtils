@@ -1,6 +1,6 @@
 package routing
 
-import "SpikeSystem/demo/rabbitmq/RabbitMQ"
+import "GoLearningUtils/demo/rabbitmq/RabbitMQ"
 
 func RoutingReceive() {
 	routeRec1 := RabbitMQ.NewRabbitMQRouting("exRouteRec1", "routeRec1")
