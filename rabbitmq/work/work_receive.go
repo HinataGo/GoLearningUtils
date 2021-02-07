@@ -1,10 +1,10 @@
 package work
 
 import (
-	"GoLearningUtils/demo/rabbitmq/RabbitMQ"
+	"GoLearningUtils/rabbitmq/RabbitMQ"
 )
 
-func Receive2() {
+func Receive1() {
 	rabbitmq := RabbitMQ.NewRabbitMQSimple("" + "rookie")
 	rabbitmq.ConsumeSimple()
 }

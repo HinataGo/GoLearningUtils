@@ -1,6 +1,6 @@
 package topic
 
-import "GoLearningUtils/demo/rabbitmq/RabbitMQ"
+import "GoLearningUtils/rabbitmq/RabbitMQ"
 
 func TopicReceive() {
 	TopicRec2 := RabbitMQ.NewRabbitMQTopic("exRookieTopic", "rookie.*.two")

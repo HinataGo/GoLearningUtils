@@ -1,6 +1,6 @@
 package pubsub
 
-import "GoLearningUtils/demo/rabbitmq/RabbitMQ"
+import "GoLearningUtils/rabbitmq/RabbitMQ"
 
 func Sub2() {
 	rabbitmq := RabbitMQ.NewRabbitMQPubSub("" +

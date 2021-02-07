@@ -1,6 +1,6 @@
 package simple
 
-import "GoLearningUtils/demo/rabbitmq/RabbitMQ"
+import "GoLearningUtils/rabbitmq/RabbitMQ"
 
 func Receive() {
 	rabbitmq := RabbitMQ.NewRabbitMQSimple("" + "rookie")
