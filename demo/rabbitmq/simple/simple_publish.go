@@ -1,9 +1,13 @@
 package simple
 
-import "fmt"
+import (
+	"fmt"
+
+	"SpikeSystem/demo/rabbitmq/RabbitMQ"
+)
 
 func Publish() {
-	rabbitmq := NewRabbitMQSimple("" + "rookie")
+	rabbitmq := RabbitMQ.NewRabbitMQSimple("" + "rookie")
 	rabbitmq.PublishSimple("hello ")
 	fmt.Println("send success")
 }

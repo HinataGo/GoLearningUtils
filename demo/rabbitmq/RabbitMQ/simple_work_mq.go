@@ -1,4 +1,4 @@
-package simple
+package RabbitMQ
 
 import (
 	"fmt"
@@ -23,6 +23,7 @@ type RabbitMQ struct {
 	MqUrl string
 }
 
+// NewRabbitMQSimple: 新建一个简单队列,  简单模式 工作模式也用这个(详细区别md文档分析)
 func NewRabbitMQSimple(queueName string) *RabbitMQ {
 	return NewRabbitMQ(queueName, "", "")
 }
